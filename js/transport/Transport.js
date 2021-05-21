@@ -7,7 +7,7 @@ class Transport {
         this.galiaAg = galiaAg;
         this.color = color;
         this.variklisOn = false;
-        this.priekabosTalpa = [];
+        this.priekabosTalpa = [10];
         this.backLift = false;
         this.savaeigis = false;
         this.lopselis = false;

@@ -1,8 +1,8 @@
 const Sunkv = require('./Sunkv');
 
 class Gaz extends Sunkv {
-    constructor(name, priekTalpa, sedyniuSk) {
-        super(name, priekTalpa, sedyniuSk);
+    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color) {
+        super(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color);
        
     }
 }

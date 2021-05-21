@@ -1,8 +1,8 @@
 const Lengv = require('./Lengv');
 
 class Bmw extends Lengv {
-    constructor(name, galiaAg) {
-        super(name, galiaAg);
+    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color) {
+        super(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color);
        
     }
 }

@@ -1,8 +1,8 @@
 const Lengv = require('./Lengv');
 
 class Volvo extends Lengv {
-    constructor(name,vairoPadetis, sedyniuSk, ratuSk) {
-        super(name,vairoPadetis, sedyniuSk, ratuSk);
+    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color) {
+        super(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color);
        
     }
 }

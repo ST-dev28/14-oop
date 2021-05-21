@@ -1,8 +1,8 @@
 const Transport = require('./Transport');
 
 class Lengv extends Transport {
-    constructor(name,vairoPadetis, sedyniuSk, ratuSk, galiaAg) {
-        super(name,vairoPadetis, sedyniuSk, ratuSk, galiaAg);
+    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color) {
+        super(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color);
        
     }
 }

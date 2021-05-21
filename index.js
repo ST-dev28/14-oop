@@ -11,7 +11,7 @@ const rainis = new Cat('Rainis', 'golden');
 rainis.voice();
 
 const benas = new Rabbit('Benas', 'black');
-benas.voice();
+benas.introduce();
 */
 
 const Volvo = require('./js/transport/Volvo');
@@ -26,40 +26,39 @@ const Yamaha = require('./js/transport/Yamaha');
 const Iz = require('./js/transport/Iz');
 const Kawasaki = require('./js/transport/Kawasaki');
 
-const nVolvo = new Volvo('Volvo', 'left', 5, 4);
+const nVolvo = new Volvo('Volvo', 'left', 5, 4, '?', 'silver');
 nVolvo.ijungtasVariklis();
 console.log(nVolvo);
 
-const nBmw = new Bmw('BMW', 333);
+const nBmw = new Bmw('BMW','left', 5, 4, 333, 'black mat');
 nBmw.ijungtasVariklis();
 console.log(nBmw);
 
-const nTesla = new Tesla('Tesla', 'left', 2);
+const nTesla = new Tesla('Tesla', 'left', 5, 4, '?', 'white');
 nTesla.autoPilotas();
 console.log(nTesla);
 
-const nMan = new Man('MAN', 'right', 2);
-//nMan.priekabaPakelta();
+const nMan = new Man('MAN', 'right', 3, 4, '?', 'blue');
 nMan.talpa();
 console.log(nMan);
 
-const nGaz = new Gaz('GAZ', 'right', 2);
+const nGaz = new Gaz('GAZ', 'right', 3, 4, '?', 'brown');
 nGaz.priekabaPakelta();
 console.log(nGaz);
 
-const nVaz = new Vaz('VAZ', 'right', 2);
+const nVaz = new Vaz('VAZ', 'right', 3, 4, '?', 'grey');
 nVaz.priekabaPakelta();
 console.log(nVaz);
 
-const nYamaha = new Yamaha('Yamaha', 1 , 2, 'black');
+const nYamaha = new Yamaha('Yamaha', 'center', 1 , 2, '?', 'black');
 nYamaha.lopselisExists();
 console.log(nYamaha);
 
-const nIz = new Iz('Iz', 1 , 2, 'red');
+const nIz = new Iz('Iz', 'center', 1 , 2, '?', 'red');
 nIz.lopselisExists();
 console.log(nIz);
 
-const nKawasaki = new Kawasaki('Kawasaki', 1 , 2, 'navy');
+const nKawasaki = new Kawasaki('Kawasaki', 'center', 1 , 2, '?', 'navy');
 nKawasaki.lopselisExists();
 console.log(nKawasaki);
 
