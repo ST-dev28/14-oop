@@ -15,16 +15,25 @@ benas.voice();
 */
 
 const Volvo = require('./js/transport/Volvo');
+const Bmw = require('./js/transport/Bmw');
+const Tesla = require('./js/transport/Tesla');
 const Man = require('./js/transport/Man');
 
 const nVolvo = new Volvo('Volvo', 'left', 5, 4);
 nVolvo.ijungtasVariklis();
 console.log(nVolvo);
 
-const nMan = new Man('Man', 'right', 2);
+const nMan = new Man('MAN', 'right', 2);
 nMan.priekabaPakelta();
 console.log(nMan);
 
+const nBmw = new Bmw('BMW', 333);
+nBmw.ijungtasVariklis();
+console.log(nBmw);
+
+const nTesla = new Tesla('Tesla', 'left', 2);
+nTesla.autoPilotas();
+console.log(nTesla);
 
 /*
 console.log(rexas);
