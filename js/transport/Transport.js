@@ -1,15 +1,16 @@
 class Transport {
-    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg) {
+    constructor(name, vairoPadetis, sedyniuSk, ratuSk, galiaAg, color) {
         this.name = name;
         this.vairoPadetis = vairoPadetis;
         this.sedyniuSk = sedyniuSk;
         this.ratuSk = ratuSk;
         this.galiaAg = galiaAg;
+        this.color = color;
         this.variklisOn = false;
-        this.crashedSigns = [5];
-        this.priekabosTalpa = 10;
+        this.priekabosTalpa = [];
         this.backLift = false;
         this.savaeigis = false;
+        this.lopselis = false;
         
     }
 
@@ -19,8 +20,8 @@ class Transport {
     ijungtasVariklis() {
         this.variklisOn = false;
     }
-    failure() {
-        console.log(`${this.name} has smashed ${this.crashedSigns} road signs.`);
+    talpa() {
+        console.log(`${this.name} is a ${this.priekabosTalpa} tons trailer.`);
     }
     priekabaPakelta() {
         this.backLift = true;
@@ -33,6 +34,12 @@ class Transport {
     }
     autoPilotas() {
         this.savaeigis = true;
+    }
+    lopselisExists() {
+        this.lopselis = false;
+    }
+    lopselisExists() {
+        this.lopselis = true;
     }
 }
 

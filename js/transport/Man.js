@@ -1,8 +1,8 @@
 const Sunkv = require('./Sunkv');
 
 class Man extends Sunkv {
-    constructor(name,priekTalpa, sedyniuSk) {
-        super(name,priekTalpa, sedyniuSk);
+    constructor(name, priekTalpa, sedyniuSk) {
+        super(name, priekTalpa, sedyniuSk);
        
     }
 }
