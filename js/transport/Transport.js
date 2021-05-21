@@ -6,6 +6,8 @@ class Transport {
         this.ratuSk = ratuSk;
         this.variklisOn = false;
         this.crashedSigns = [5];
+        this.priekabosTalpa = 10;
+        this.backLift = false;
         
     }
 
@@ -18,6 +20,13 @@ class Transport {
     failure() {
         console.log(`${this.name} has smashed ${this.crashedSigns} road signs.`);
     }
+    priekabaPakelta() {
+        this.backLift = true;
+    }
+    priekabaPakelta() {
+        this.backLift = false;
+    }
+
 }
 
 module.exports = Transport;

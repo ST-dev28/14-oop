@@ -1,10 +1,10 @@
-const Transport = require('./Transport');
+const Sunkv = require('./Sunkv');
 
-class Sunkv extends Transport {
+class Man extends Sunkv {
     constructor(name,priekTalpa, sedyniuSk) {
         super(name,priekTalpa, sedyniuSk);
        
     }
 }
 
-module.exports = Sunkv;
+module.exports = Man;
